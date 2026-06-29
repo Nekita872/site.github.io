@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 лет под водой</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="ocean" id="ocean">
+
+        <!-- невидимый триггер для скролла -->
+        <div class="scroll-trigger" id="scrollTrigger"></div>
+
+        <!-- ===== ФОНОВЫЕ ПУЗЫРИ (постоянно плавают) ===== -->
+        <!-- Их 18 штук, все в CSS сгенерированы через JS, чтобы не захламлять HTML -->
+        <!-- Смотри js/script.js -->
+
+        <!-- ===== ЗАГОЛОВОК ===== -->
+        <div class="big-title">30 <span>лет</span></div>
+        <div class="sub-ocean">🌊 кто проживает на дне океана? 🌊</div>
+
+        <!-- ===== ОСНОВНОЙ КОНТЕНТ (появляется после пузырей) ===== -->
+        <div class="content-wrapper" id="contentWrapper">
+            <div class="scroll-content">
+                <h2>🎉 С днём рождения! 🎉</h2>
+                <div class="main-text">
+                    <p>
+                        Желаю <strong>счастья</strong> и <strong>веселья</strong>,<br />
+                        30 лет — большая дата,<br />
+                        и я хочу сказать тебе, <span class="vlad">Владик</span>:<br />
+                        будь ты <strong>счастлив</strong>, будь <strong>весел</strong>,<br />
+                        пусть всегда у тебя всё было <strong>🔥</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- ===== ПЕРСОНАЖИ (ТВОИ КАРТИНКИ) ===== -->
+            <div class="characters-bottom">
+                <div class="character">
+                    <!-- СЮДА ТВОЮ КАРТИНКУ Крабса -->
+                    <img src="img/krabs.png" alt="Мистер Крабс" class="emoji-img" />
+                    <span class="name">Мистер Крабс</span>
+                </div>
+                <div class="character">
+                    <!-- СЮДА ТВОЮ КАРТИНКУ Спанч Боба -->
+                    <img src="img/spongebob.png" alt="Спанч Боб" class="emoji-img" />
+                    <span class="name">Спанч Боб</span>
+                </div>
+                <div class="character">
+                    <!-- СЮДА ТВОЮ КАРТИНКУ Гэри -->
+                    <img src="img/gary.png" alt="Гэри" class="emoji-img" />
+                    <span class="name">Гэри</span>
+                </div>
+            </div>
+
+            <div class="signature-wrap">
+                <div class="bottom-signature">
+                    🎈 Поздравляем от всего Бикини-Боттом 🎈
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
